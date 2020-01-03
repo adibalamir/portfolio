@@ -1,8 +1,39 @@
+body {
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  list-style: none;
+}
+
 .center {
   text-align: center;
 }
 
+.name {
+  font-size: 2rem;
+  margin: 0;
+}
+
 .all-space {
+  font-size: 0.8rem;
   width: 100vw;
   height: 100vh;
+}
+
+.main-nav {
+  position: fixed;
+  right: 0;
+  top: 50%;
+  height: 30vh;
+  margin-top: -15vh;
+  list-style: none;
+}
+
+.main-nav a {
+  font-size: 0.8rem;
+  display: block;
+  height: calc(30vh / 4);
+  line-height: calc(30vh / 4);
 }
